@@ -1,0 +1,43 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  // Вот тут сделай fluid text
+  // пропиши флюид текст в mixin.scss
+
+  background-color: var(--color-white);
+  color: var(--color-white);
+  font-family: 'Raleway', sans-serif;
+  line-height: var(--line-height);
+}
+
+a,
+button,
+input,
+textarea,
+svg * {
+  transition-duration: var(--transition-duration);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 500;
+}
+
+// h1 {
+//   @include fluid-text(60, 43);
+// }
+
+// h2 {
+//   @include fluid-text(40, 36);
+// } вот с этим разберись потому

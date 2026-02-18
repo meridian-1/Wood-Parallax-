@@ -1,0 +1,10 @@
+.layer {
+  @include image-cover;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  will-change: transform;
+  z-index: -1;
+
+  transition: var(--transition);
+}
