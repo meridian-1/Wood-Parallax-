@@ -10,3 +10,5 @@ This project is a one—page website with a parallax effect in pure JavaScript a
 - Structured and easily extensible code
 
 *This is just my learning project ⭐*
+
+![preview] (https://github.com/meridian-1/Wood-Parallax-/blob/main/preview.gif)
